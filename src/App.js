@@ -13,10 +13,10 @@ import { RowItem } from './components/RowItem';
 
 const App = () => {
   const [todos, setTodos] = useState([]);
-  const [newData, setNewData] = useState("abcd");
-  const [newStatus, setNewStatus] = useState("abcd");
-  const [newPaymentReceived, setNewPaymentReceived] = useState(123);
-  const [newPaymentTotal, setNewPaymentTotal] = useState(123);
+  const [newData, setNewData] = useState();
+  const [newStatus, setNewStatus] = useState();
+  const [newPaymentReceived, setNewPaymentReceived] = useState();
+  const [newPaymentTotal, setNewPaymentTotal] = useState();
   const [refreshflag, setRefreshFlag] = useState(true);
 
   const handleExport = () => {
