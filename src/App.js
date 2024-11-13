@@ -144,6 +144,7 @@ const App = () => {
 
   return (
     <div>
+      <h1>Work Items Manager</h1>
       {renderForm()}
       <br/>
       {renderTable()}
