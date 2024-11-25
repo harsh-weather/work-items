@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getDatabase, ref, set, get, push } from "firebase/database";
+import { getDatabase, ref, set, get, push, remove } from "firebase/database";
 // import { firebaseConfig } from "../config/firebaseConfig";
 // import firebase from "firebase/compat/app";
  
@@ -17,4 +17,4 @@ const app = initializeApp(firebaseConfig);
 
 const db = getDatabase(app);
 
-export { db, ref, set, get, push };
+export { db, ref, set, get, push, remove };

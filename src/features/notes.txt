@@ -1,0 +1,7 @@
+reading data
+
+snapshot.val() => {
+    dsd: "abcd",
+            sadas
+}
+
